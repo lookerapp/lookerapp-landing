@@ -1,0 +1,13 @@
+// Add custom font
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+$font-family-base: 'Open Sans', sans-serif;
+
+$bg-color: #f5f8fa;
+
+body {
+	background: $bg-color;
+	color: #555459;
+	line-height: 1.5em;
+	text-align: center;
+	padding: 20px;
+}

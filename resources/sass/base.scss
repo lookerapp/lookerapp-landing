@@ -1,5 +1,5 @@
 // Add custom font
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+@import url('//fonts.googleapis.com/css?family=Open+Sans:400,700,300');
 $font-family-base: 'Open Sans', sans-serif;
 
 $bg-color: #f5f8fa;
@@ -31,6 +31,6 @@ body {
   vertical-align: middle;
 	text-align: center;
 	img {
-		width: 30%;
+		width: 24%;
 	}
 }

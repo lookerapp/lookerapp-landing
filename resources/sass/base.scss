@@ -9,5 +9,28 @@ body {
 	color: #555459;
 	line-height: 1.5em;
 	text-align: center;
-	padding: 60px;
+}
+#wrapper {
+	text-align: center;
+  /* May want to do this if there is risk the container may be narrower than the element inside */
+  white-space: nowrap;
+	position: absolute;
+	height: 100%;
+}
+#wrapper:before {
+	content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+	margin-right: -0.25em; /* Adjusts for spacing */
+
+}
+
+.contain {
+	display: inline-block;
+  vertical-align: middle;
+	text-align: center;
+	img {
+		width: 30%;
+	}
 }

@@ -1,36 +1,79 @@
 // Add custom font
-@import url('//fonts.googleapis.com/css?family=Open+Sans:400,700,300');
-$font-family-base: 'Open Sans', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);');
+$font-family-base: 'Lato', sans-serif;
 
-$bg-color: #f5f8fa;
+$bg-color: #4B51A3;
 
 body {
 	background: $bg-color;
-	color: #555459;
+	color: rgba(255,255,255,0.8);
 	line-height: 1.5em;
 	text-align: center;
-}
-#wrapper {
-	text-align: center;
-  /* May want to do this if there is risk the container may be narrower than the element inside */
-  white-space: nowrap;
-	position: absolute;
-	height: 100%;
-}
-#wrapper:before {
-	content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-	margin-right: -0.25em; /* Adjusts for spacing */
+	min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+	font-family: $font-family-base;
+  display: flex;
+  align-items: center;
+	letter-spacing: 1px;
+	background: linear-gradient(80deg, #4b51a3, #4e55bb);
+	background-size: 400% 400%;
+
+	-webkit-animation: AnimationName 44s ease infinite;
+	-moz-animation: AnimationName 44s ease infinite;
+	animation: AnimationName 44s ease infinite;
 
 }
 
-.contain {
-	display: inline-block;
-  vertical-align: middle;
-	text-align: center;
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:99% 0%}
+    50%{background-position:2% 100%}
+    100%{background-position:99% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:99% 0%}
+    50%{background-position:2% 100%}
+    100%{background-position:99% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:99% 0%}
+    50%{background-position:2% 100%}
+    100%{background-position:99% 0%}
+}
+.v-align {
+	display: flex;
+	 align-items: center;
+}
+
+.logo {
+	width: 20%;
+	margin-bottom: 50px;
+}
 	img {
-		width: 24%;
+		width: 100%;
+
+}
+
+h1 {
+	margin-top: 0px;
+	color: #fff;
+	font-weight: 900;
+
+}
+
+h4 {
+	margin-top: 40px;
+	margin-bottom: 0px;
+}
+
+a {
+	color: rgba(255,255,255,0.8);
+	border-bottom: 1px solid rgba(255,255,255,0.8);
+	padding-bottom: 2px;
+	font-weight: 300;
+
+	&:hover {
+		text-decoration: none;
+		color: #fff;
 	}
 }

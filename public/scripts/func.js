@@ -9,9 +9,9 @@ if (matchMedia) {
 function WidthChange(mq) {
 
   if (mq.matches) {
-      $('body, .row').addClass('v-align')
+      $('body, .row:first-child').addClass('v-align')
   } else {
-    $('body, .row').removeClass('v-align')
+    $('body, .row:first-child').removeClass('v-align')
   }
 
 }

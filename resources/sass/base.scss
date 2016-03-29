@@ -4,6 +4,7 @@ $font-family-base: 'Lato', sans-serif;
 
 $bg-color: #4B51A3;
 
+
 body {
 	background: $bg-color;
 	color: rgba(255,255,255,0.8);
@@ -17,6 +18,7 @@ body {
 	letter-spacing: 1px;
 	background: linear-gradient(80deg, #4b51a3, #4e55bb);
 	background-size: 400% 400%;
+
 
 	-webkit-animation: AnimationName 44s ease infinite;
 	-moz-animation: AnimationName 44s ease infinite;
@@ -46,8 +48,8 @@ body {
 }
 
 .logo {
-	width: 20%;
-	margin-bottom: 50px;
+	width: 15%;
+	margin-top: 50px;
 }
 	img {
 		width: 100%;
@@ -62,8 +64,20 @@ h1 {
 }
 
 h4 {
-	margin-top: 40px;
-	margin-bottom: 0px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+#footer {
+	position: absolute;
+  bottom: 0;
+ left: 0px;
+ right: 0px;
+  /* Set the fixed height of the footer here */
+ 	padding: 20px;
+ text-align: center;
+
 }
 
 a {

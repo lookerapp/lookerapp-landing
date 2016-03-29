@@ -72,11 +72,13 @@ h4 {
 #footer {
 	position: absolute;
   bottom: 0;
- left: 0px;
- right: 0px;
+	width: 100%;
+	right: 15px;
+	left: 15px;
   /* Set the fixed height of the footer here */
- 	padding: 20px;
+ 	padding: 20px 0px;
  text-align: center;
+
 
 }
 

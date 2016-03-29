@@ -93,3 +93,9 @@ a {
 		color: #fff;
 	}
 }
+
+@media (max-width: 500px) {
+	#footer {
+		position: relative;
+	}
+ }

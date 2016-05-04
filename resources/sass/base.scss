@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);');
 $font-family-base: 'Lato', sans-serif;
 
-$bg-color: #4B51A3;
+$bg-color: #efd5c8;
 
 
 body {
 	background: $bg-color;
-	color: rgba(255,255,255,0.8);
+	color: #3d3d3d;
 	line-height: 1.5em;
 	text-align: center;
 	min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
@@ -16,13 +16,13 @@ body {
   display: flex;
   align-items: center;
 	letter-spacing: 1px;
-	background: linear-gradient(80deg, #4b51a3, #4e55bb);
-	background-size: 400% 400%;
+	background: linear-gradient(0deg, #efd5c8, #ddf2f3);
+	background-size: 100% 100%;
 
 
-	-webkit-animation: AnimationName 44s ease infinite;
-	-moz-animation: AnimationName 44s ease infinite;
-	animation: AnimationName 44s ease infinite;
+	// -webkit-animation: AnimationName 44s ease infinite;
+	// -moz-animation: AnimationName 44s ease infinite;
+	// animation: AnimationName 44s ease infinite;
 
 }
 
@@ -59,7 +59,7 @@ body {
 
 h1 {
 	margin-top: 0px;
-	color: #fff;
+	color: #3d3d3d;
 	font-weight: 900;
 
 }
@@ -86,14 +86,14 @@ h4 {
 }
 
 a {
-	color: rgba(255,255,255,0.8);
-	border-bottom: 1px solid rgba(255,255,255,0.8);
+	color:#3d3d3d;
+	border-bottom: 1px solid #3d3d3d;
 	padding-bottom: 2px;
 	font-weight: 300;
 
 	&:hover {
 		text-decoration: none;
-		color: #fff;
+		color: #3d3d3d;
 	}
 }
 

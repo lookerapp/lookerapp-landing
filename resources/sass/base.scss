@@ -3,11 +3,12 @@
 $font-family-base: 'Lato', sans-serif;
 
 $bg-color: #efd5c8;
+$font-color: #2c3b3f;
 
 
 body {
 	background: $bg-color;
-	color: #3d3d3d;
+	color: $font-color;
 	line-height: 1.5em;
 	text-align: center;
 	min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
@@ -20,7 +21,6 @@ body {
 	background: linear-gradient(0deg, #ffffff, #f7fafa);
 	// background: #f7fafa;
 	background-size: 100% 100%;
-
 
 	// -webkit-animation: AnimationName 44s ease infinite;
 	// -moz-animation: AnimationName 44s ease infinite;

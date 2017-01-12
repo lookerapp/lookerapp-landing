@@ -1,9 +1,9 @@
 // Add custom font
-@import url('https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Niconne|Sriracha');
 $font-family-base: 'Lato', sans-serif;
-
-$bg-color: #efd5c8;
-$font-color: #2c3b3f;
+$font-family-heading: 'Niconne', sans-serif;
+$bg-color: #3094a5;
+$font-color: #ffffff;
 
 
 body {
@@ -18,9 +18,10 @@ body {
   align-items: center;
 	letter-spacing: 1px;
 	// background: linear-gradient(0deg, #efd5c8, #ddf2f3);
-	background: linear-gradient(0deg, rgba(238,215,200, 1),rgba(222,242,243, 1));
 	// background: #f7fafa;
-	background-size: 100% 100%;
+	background-size:cover;
+	background-position: right;
+	background-image: url('../images/lkr-bg.png')
 
 	// -webkit-animation: AnimationName 44s ease infinite;
 	// -moz-animation: AnimationName 44s ease infinite;
@@ -51,8 +52,8 @@ body {
 
 
 .logo {
-	width: 40%;
-	margin-top: 80px;
+	width: 140px;
+	margin-bottom: 80px;
 }
 	img {
 		width: 100%;
@@ -61,16 +62,19 @@ body {
 
 h1 {
 	margin-top: 0px;
-	font-weight: 900;
-	padding: 0px 30px;
+	font-weight: 400;
+
+	letter-spacing: -1px;
+	font-size: 5em;
+	font-family: $font-family-heading;
 
 }
 
 h4 {
-	margin-top: 20px;
-	margin-bottom: 20px;
-	font-size: 1.3vmin;
-	font-size: 18px;
+	margin-top: 10px;
+	letter-spacing: 1px;
+	font-size: 1.6em;
+	font-weight: 200;
 
 }
 
@@ -92,14 +96,14 @@ h4 {
 }
 
 a {
-	color:#3d3d3d;
-	border-bottom: 1px solid #3d3d3d;
+	color: rgba(255,255,255,0.6);
+	border-bottom: 1px solid rgba(255,255,255,0.6);
 	padding-bottom: 2px;
 	font-weight: 300;
 
 	&:hover {
 		text-decoration: none;
-		color: #3d3d3d;
+		color: #ffffff;
 	}
 }
 
